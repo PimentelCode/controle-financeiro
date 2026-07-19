@@ -1,0 +1,24 @@
+# Artefatos de build (PyInstaller)
+build_tmp/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# Executável gerado (distribuído via GitHub Releases)
+FinanControl.exe
+
+# Perfil isolado do modo aplicativo
+.appwindow/
+
+# Backups gerados em tempo de execução
+financontrol-backup.json
+financontrol-*.json
+
+# Configuração local de sessão
+.claude/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
