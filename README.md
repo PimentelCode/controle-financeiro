@@ -8,7 +8,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-**▶ Demo online:** _adicione aqui a URL da Vercel após o deploy_ &nbsp;·&nbsp; [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PimentelCode/controle-financeiro)
+**▶ Demo online:** **[controle-financeiro-plum-six.vercel.app](https://controle-financeiro-plum-six.vercel.app)** &nbsp;·&nbsp; [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PimentelCode/controle-financeiro)
 
 > Na versão web (Vercel) o backup automático usa a **File System Access API** (Chrome/Edge) ou export/import manual — a gravação direta em disco é exclusiva do app `.exe`.
 
