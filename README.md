@@ -149,4 +149,4 @@ fintech modernas (Linear / Mercury / Ramp).
 
 ## Licença
 
-[MIT](LICENSE) © 2026 João Vitor Pereira Pimentel
+[MIT](LICENSE) © 2026 João Vitor da Rosa Pimentel

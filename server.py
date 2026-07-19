@@ -77,6 +77,13 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path in ("/", "/index.html", "/FinanControl.html"):
             self._send(200, read_html(), "text/html")
+        elif self.path == "/favicon.ico":
+            ico = os.path.join(bundle_dir(), "FinanControl.ico")
+            if os.path.exists(ico):
+                with open(ico, "rb") as f:
+                    self._send(200, f.read(), "image/x-icon")
+            else:
+                self._send(404, b"", "image/x-icon")
         elif self.path == "/api/ping":
             self._send(200, json.dumps({"ok": True, "app": "financontrol"}))
         elif self.path == "/api/backup":
