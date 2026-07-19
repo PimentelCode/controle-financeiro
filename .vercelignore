@@ -1,0 +1,9 @@
+# Não enviar para a Vercel (app desktop / build local)
+FinanControl.exe
+server.py
+build.bat
+__pycache__/
+.appwindow/
+build_tmp/
+dist/
+financontrol-*.json
