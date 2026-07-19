@@ -328,7 +328,11 @@
     .bento { grid-template-columns: 1fr; }
     .add-form { grid-template-columns: 1fr; }
     .header-inner { flex-direction: column; align-items: stretch; }
-    .head-right { justify-content: space-between; }
+    .head-right { width: 100%; justify-content: flex-start; gap: 8px; }
+    .profile-switch { flex: 1 1 100%; justify-content: space-between; }
+    .profile-switch select { flex: 1; max-width: none; }
+    .salary-box { flex: 1 1 100%; }
+    #btnAuto, #btnExport, #btnImport { flex: 1 1 auto; justify-content: center; }
     .hero { padding: var(--sp-4) 0 var(--sp-3); }
   }
 

@@ -10,6 +10,20 @@
 
 ---
 
+## Preview
+
+<p align="center">
+  <img src="docs/screenshots/desktop.png" alt="FinanControl — dashboard, relatório semanal e lista de contas" width="880">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/mobile.png" alt="FinanControl no celular — layout responsivo" width="300">
+  <br>
+  <em>Layout responsivo — do desktop ao celular (375px).</em>
+</p>
+
+---
+
 ## Visão geral
 
 O **FinanControl** nasceu de uma necessidade real: organizar contas fixas e variáveis,
